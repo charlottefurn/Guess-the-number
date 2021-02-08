@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    width: 450px;
+    height: 450px;
+    background-color: rgba(95, 158, 160, 0.274);
+    border-radius: 50%;
+}
+
+.container label {
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.randomNumber{
+    color: rgba(128, 128, 128, 0.637);
+    font-size: 18px;
+}
+
+.submit {
+    margin-top: 3%;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+    color: white;
+}
+
+
+.answer {
+    font-size: 25px;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#number {
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding-left: 30px;
+}
